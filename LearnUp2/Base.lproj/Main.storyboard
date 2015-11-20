@@ -1,25 +1,450 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LearnUp2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="253" verticalHuggingPriority="251" fixedFrame="YES" image="starry-sky-of-bretagne.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="442-aJ-8bL">
+                                <rect key="frame" x="-275" y="-308" width="1049" height="1283"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Earth.png" translatesAutoresizingMaskIntoConstraints="NO" id="wIA-dC-WJi">
+                                <rect key="frame" x="-131" y="498" width="637" height="340"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Eva" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gOr-9B-1Z2">
+                                <rect key="frame" x="135" y="59" width="104" height="128"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="53"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BUR-Jy-WKT">
+                                <rect key="frame" x="20" y="25" width="48" height="30"/>
+                                <state key="normal" title="&lt; Back"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cN6-rq-x5u">
+                                <rect key="frame" x="321" y="24" width="34" height="32"/>
+                                <state key="normal" title="Button" image="FEZ-04-512.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Wt-hq-OkT">
+                                <rect key="frame" x="173" y="28" width="28" height="28"/>
+                                <state key="normal" image="earthicon.png"/>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cE2-Oj-VcP">
+                                <rect key="frame" x="88" y="180" width="199" height="66"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5gd-Cc-Gox">
+                                        <rect key="frame" x="12" y="8" width="179" height="50"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="38"/>
+                                        <state key="normal" title="My Tasks">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="8D3-vZ-4eS" kind="show" id="o6X-62-tAV"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uyi-bD-qcg">
+                                <rect key="frame" x="88" y="285" width="199" height="66"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tuh-ro-Jkk">
+                                        <rect key="frame" x="12" y="5" width="179" height="56"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="38"/>
+                                        <state key="normal" title="Progress">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3uX-DQ-MEZ">
+                                <rect key="frame" x="88" y="394" width="199" height="66"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fKY-ap-whM">
+                                        <rect key="frame" x="12" y="5" width="179" height="56"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="38"/>
+                                        <state key="normal" title="Search">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="myTasksButton" destination="cE2-Oj-VcP" id="UF8-gv-ih1"/>
+                        <outlet property="progressButton" destination="Uyi-bD-qcg" id="mAY-cg-FHU"/>
+                        <outlet property="searchButton" destination="3uX-DQ-MEZ" id="9Ja-6e-yKZ"/>
+                        <outlet property="searchDisplayController" destination="7yf-hz-ZXB" id="yJ0-Yg-C7q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="7yf-hz-ZXB">
+                    <connections>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="MrE-fn-rn8"/>
+                        <outlet property="searchContentsController" destination="BYZ-38-t0r" id="pw2-id-jqx"/>
+                        <outlet property="searchResultsDataSource" destination="BYZ-38-t0r" id="odA-wI-RO0"/>
+                        <outlet property="searchResultsDelegate" destination="BYZ-38-t0r" id="bNB-VG-dM6"/>
+                    </connections>
+                </searchDisplayController>
             </objects>
+            <point key="canvasLocation" x="1.5" y="674.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="YGf-Mv-IiW">
+            <objects>
+                <navigationController id="bfb-qE-QcJ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="e2W-BW-fEH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v7R-Dh-5OJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-651" y="341"/>
+        </scene>
+        <!--My Tasks-->
+        <scene sceneID="Ot4-At-D4a">
+            <objects>
+                <viewController id="8D3-vZ-4eS" customClass="MyTasks" customModule="LearnUp2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WH7-6z-aWc"/>
+                        <viewControllerLayoutGuide type="bottom" id="CBB-js-YUO"/>
+                    </layoutGuides>
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="ai8-l4-ohO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="253" verticalHuggingPriority="251" fixedFrame="YES" image="starry-sky-of-bretagne.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DFg-c7-6tY">
+                                <rect key="frame" x="-275" y="-308" width="1049" height="1283"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zod-jZ-u1w">
+                                <rect key="frame" x="20" y="25" width="48" height="30"/>
+                                <state key="normal" title="&lt; Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="zMS-ri-8ga"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bNz-8a-SCO">
+                                <rect key="frame" x="321" y="24" width="34" height="32"/>
+                                <state key="normal" title="Button" image="FEZ-04-512.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qyf-un-2uv">
+                                <rect key="frame" x="173" y="28" width="28" height="28"/>
+                                <state key="normal" image="earthicon.png"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="1a9-32-zEr"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Tasks" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GlF-e2-MgZ">
+                                <rect key="frame" x="46" y="78" width="283" height="128"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="53"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QLx-yq-LVa">
+                                <rect key="frame" x="77" y="234" width="220" height="220"/>
+                                <state key="normal" image="white-circle-md.png"/>
+                                <connections>
+                                    <segue destination="MG3-GT-iIZ" kind="show" id="T8i-gk-qeN"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Counting Coins" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CTE-6Q-LsQ">
+                                <rect key="frame" x="84" y="303" width="207" height="81"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="27"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FFI-YH-i9d"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="7yf-hz-ZXB" id="W1o-eP-k2u"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e1D-3S-ujA" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="CqO-ac-vLz">
+                    <connections>
+                        <outlet property="delegate" destination="8D3-vZ-4eS" id="jqo-J1-K6p"/>
+                        <outlet property="searchContentsController" destination="8D3-vZ-4eS" id="AGO-yc-ksQ"/>
+                        <outlet property="searchResultsDataSource" destination="8D3-vZ-4eS" id="6tx-QN-yfK"/>
+                        <outlet property="searchResultsDelegate" destination="8D3-vZ-4eS" id="Ur9-LV-W5w"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="615.5" y="426.5"/>
+        </scene>
+        <!--Task View-->
+        <scene sceneID="zW9-AH-97H">
+            <objects>
+                <viewController id="MG3-GT-iIZ" customClass="TaskView" customModule="LearnUp2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xz3-8d-RVz"/>
+                        <viewControllerLayoutGuide type="bottom" id="yPX-rl-AM2"/>
+                    </layoutGuides>
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="drW-TJ-LeQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="planetsurface.png" translatesAutoresizingMaskIntoConstraints="NO" id="KIl-cn-Qcm">
+                                <rect key="frame" x="-461" y="-12" width="1296" height="692"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UVG-Nu-efA">
+                                <rect key="frame" x="20" y="25" width="48" height="30"/>
+                                <state key="normal" title="&lt; Back"/>
+                                <connections>
+                                    <segue destination="8D3-vZ-4eS" kind="show" id="oRb-Ag-PZu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jDK-5b-aV8">
+                                <rect key="frame" x="321" y="24" width="34" height="32"/>
+                                <state key="normal" title="Button" image="FEZ-04-512.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FXi-wE-0ba">
+                                <rect key="frame" x="173" y="28" width="28" height="28"/>
+                                <state key="normal" image="earthicon.png"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="aOh-17-EPD"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Counting Coins!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SUW-XH-S3z">
+                                <rect key="frame" x="15" y="64" width="344" height="140"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="45"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rGl-hb-4Lv">
+                                <rect key="frame" x="86" y="206" width="203" height="128"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="_coins_stacks-256.png" translatesAutoresizingMaskIntoConstraints="NO" id="kx0-RZ-C8h">
+                                        <rect key="frame" x="-14" y="0.0" width="240" height="128"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ixe-d9-aep">
+                                <rect key="frame" x="-1" y="481" width="382" height="186"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.70000000000000007" colorSpace="calibratedRGB"/>
+                                <string key="text">Activity: Find as many ways as you can to arrange coins into stacks of 27 cents.                                           Completion: Take a picture of these and submit it!</string>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="21"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Zh-yW-8gO">
+                                <rect key="frame" x="-1" y="613" width="376" height="54"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MzA-q6-CJe">
+                                        <rect key="frame" x="133" y="0.0" width="110" height="58"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="32"/>
+                                        <state key="normal" title="Accept">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="kyh-s3-07o" kind="show" id="WxJ-Cd-Ktj"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.71020754419191912" blue="0.17252828720420552" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rgZ-ms-ETt"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="coinSquare" destination="rGl-hb-4Lv" id="eQh-BN-oy0"/>
+                        <outlet property="searchDisplayController" destination="7yf-hz-ZXB" id="p2M-1j-YlF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lyT-Zu-3HJ" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="apG-oH-ZUM">
+                    <connections>
+                        <outlet property="delegate" destination="MG3-GT-iIZ" id="5GM-ll-Kb3"/>
+                        <outlet property="searchContentsController" destination="MG3-GT-iIZ" id="6fu-mq-m45"/>
+                        <outlet property="searchResultsDataSource" destination="MG3-GT-iIZ" id="QY3-PU-dZP"/>
+                        <outlet property="searchResultsDelegate" destination="MG3-GT-iIZ" id="DGk-9f-eOJ"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="1219.5" y="340.5"/>
+        </scene>
+        <!--Complete Task-->
+        <scene sceneID="1sF-us-hqu">
+            <objects>
+                <viewController id="kyh-s3-07o" customClass="CompleteTask" customModule="LearnUp2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="da8-8O-T3k"/>
+                        <viewControllerLayoutGuide type="bottom" id="jCf-27-Sa0"/>
+                    </layoutGuides>
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="XkG-t9-tjT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="planetsurface.png" translatesAutoresizingMaskIntoConstraints="NO" id="IR2-KG-fiO">
+                                <rect key="frame" x="-461" y="-12" width="1296" height="692"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VYa-84-mKw">
+                                <rect key="frame" x="20" y="25" width="48" height="30"/>
+                                <state key="normal" title="&lt; Back"/>
+                                <connections>
+                                    <segue destination="MG3-GT-iIZ" kind="show" id="Gl1-wK-Ggc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mRF-eQ-rkR">
+                                <rect key="frame" x="321" y="24" width="34" height="32"/>
+                                <state key="normal" title="Button" image="FEZ-04-512.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CNc-ne-Bxm">
+                                <rect key="frame" x="173" y="28" width="28" height="28"/>
+                                <state key="normal" image="earthicon.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5XH-on-20G">
+                                <rect key="frame" x="86" y="257" width="202" height="178"/>
+                                <state key="normal" image="camera.png"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Take a Picture of Your Work!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EMp-3O-EIc">
+                                <rect key="frame" x="20" y="115" width="328" height="69"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="23"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="txv-26-HSK">
+                                <rect key="frame" x="-1" y="613" width="376" height="54"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jcH-Yw-9rc">
+                                        <rect key="frame" x="133" y="0.0" width="110" height="58"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="32"/>
+                                        <state key="normal" title="Done!">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="XEH-dl-Y6D" kind="show" id="uua-GX-maT"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.71020754419999998" blue="0.17252828719999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6c1-Ng-IdT"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="7yf-hz-ZXB" id="pMy-Ux-4Hj"/>
+                        <segue destination="BYZ-38-t0r" kind="show" id="wHa-0a-ey4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Nx-TY-dxi" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="AxY-um-sMS">
+                    <connections>
+                        <outlet property="delegate" destination="kyh-s3-07o" id="Sk4-QK-i8f"/>
+                        <outlet property="searchContentsController" destination="kyh-s3-07o" id="bw1-Sd-hZK"/>
+                        <outlet property="searchResultsDataSource" destination="kyh-s3-07o" id="Lvh-gb-H1E"/>
+                        <outlet property="searchResultsDelegate" destination="kyh-s3-07o" id="jx2-x4-ZnR"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="1917.5" y="340.5"/>
+        </scene>
+        <!--Rocket Screen-->
+        <scene sceneID="NY7-gI-764">
+            <objects>
+                <viewController id="XEH-dl-Y6D" customClass="RocketScreen" customModule="LearnUp2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Iki-nZ-PJw"/>
+                        <viewControllerLayoutGuide type="bottom" id="Cba-Kc-gjy"/>
+                    </layoutGuides>
+                    <view key="view" clipsSubviews="YES" contentMode="scaleToFill" id="zal-Ls-CRY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="253" verticalHuggingPriority="251" fixedFrame="YES" image="starry-sky-of-bretagne.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OyJ-b6-2Bj">
+                                <rect key="frame" x="-275" y="-308" width="1049" height="1283"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Rw-tx-8SZ">
+                                <rect key="frame" x="20" y="25" width="48" height="30"/>
+                                <state key="normal" title="&lt; Back"/>
+                                <connections>
+                                    <segue destination="kyh-s3-07o" kind="show" id="jL8-4D-n3o"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lqJ-bv-x83">
+                                <rect key="frame" x="321" y="24" width="34" height="32"/>
+                                <state key="normal" title="Button" image="FEZ-04-512.png"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qO0-Zl-xt1">
+                                <rect key="frame" x="173" y="28" width="28" height="28"/>
+                                <state key="normal" image="earthicon.png"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="XBZ-Sf-5lq"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rocket.png" translatesAutoresizingMaskIntoConstraints="NO" id="7NO-LU-oVY">
+                                <rect key="frame" x="0.0" y="234" width="375" height="200"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OSj-ND-EHw">
+                                <rect key="frame" x="135" y="223" width="240" height="2"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="120 Points!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PuB-d3-an6">
+                                <rect key="frame" x="130" y="166" width="135" height="69"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="23"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="7yf-hz-ZXB" id="pV4-fg-P9I"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f9X-tL-CuK" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="uBe-16-6yC">
+                    <connections>
+                        <outlet property="delegate" destination="XEH-dl-Y6D" id="bfQ-Uc-HHd"/>
+                        <outlet property="searchContentsController" destination="XEH-dl-Y6D" id="D9l-KQ-HeY"/>
+                        <outlet property="searchResultsDataSource" destination="XEH-dl-Y6D" id="gAV-AW-XVF"/>
+                        <outlet property="searchResultsDelegate" destination="XEH-dl-Y6D" id="xpb-Va-FBD"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="2456.5" y="406.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Earth.png" width="980" height="979"/>
+        <image name="FEZ-04-512.png" width="512" height="512"/>
+        <image name="_coins_stacks-256.png" width="256" height="256"/>
+        <image name="camera.png" width="348" height="306"/>
+        <image name="earthicon.png" width="88" height="88"/>
+        <image name="planetsurface.png" width="759" height="1350"/>
+        <image name="rocket.png" width="333" height="623"/>
+        <image name="starry-sky-of-bretagne.jpg" width="2592" height="1728"/>
+        <image name="white-circle-md.png" width="300" height="300"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="oRb-Ag-PZu"/>
+        <segue reference="Gl1-wK-Ggc"/>
+        <segue reference="jL8-4D-n3o"/>
+        <segue reference="XBZ-Sf-5lq"/>
+    </inferredMetricsTieBreakers>
 </document>

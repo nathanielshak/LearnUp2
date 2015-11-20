@@ -15,6 +15,24 @@
 		F3DD909F1BFD28E700F3D4E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DD909D1BFD28E700F3D4E4 /* LaunchScreen.storyboard */; };
 		F3DD90AA1BFD28E700F3D4E4 /* LearnUp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DD90A91BFD28E700F3D4E4 /* LearnUp2Tests.swift */; };
 		F3DD90B51BFD28E700F3D4E4 /* LearnUp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DD90B41BFD28E700F3D4E4 /* LearnUp2UITests.swift */; };
+		F3DD90C31BFD4C0300F3D4E4 /* starry-sky-of-bretagne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F3DD90C21BFD4C0300F3D4E4 /* starry-sky-of-bretagne.jpg */; };
+		F3DD90C51BFD4DF800F3D4E4 /* FEZ-04-512.png in Resources */ = {isa = PBXBuildFile; fileRef = F3DD90C41BFD4DF800F3D4E4 /* FEZ-04-512.png */; };
+		F3DD90C71BFD4E0500F3D4E4 /* Earth.png in Resources */ = {isa = PBXBuildFile; fileRef = F3DD90C61BFD4E0500F3D4E4 /* Earth.png */; };
+		F3DD90C91BFD4F5D00F3D4E4 /* Terra_globe_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F3DD90C81BFD4F5D00F3D4E4 /* Terra_globe_icon.png */; };
+		F3DD90CB1BFD567500F3D4E4 /* Picture1.png in Resources */ = {isa = PBXBuildFile; fileRef = F3DD90CA1BFD567500F3D4E4 /* Picture1.png */; };
+		F3DD90CD1BFD58F400F3D4E4 /* earthicon.png in Resources */ = {isa = PBXBuildFile; fileRef = F3DD90CC1BFD58F400F3D4E4 /* earthicon.png */; };
+		F3DD90CF1BFDB66D00F3D4E4 /* Beta_Team_Solar_System_Neptune.png in Resources */ = {isa = PBXBuildFile; fileRef = F3DD90CE1BFDB66D00F3D4E4 /* Beta_Team_Solar_System_Neptune.png */; };
+		F3DD90D11BFDBA2200F3D4E4 /* MyTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DD90D01BFDBA2200F3D4E4 /* MyTasks.swift */; };
+		F3DD90D31BFDBD6C00F3D4E4 /* light-blue-circle-hi.png in Resources */ = {isa = PBXBuildFile; fileRef = F3DD90D21BFDBD6C00F3D4E4 /* light-blue-circle-hi.png */; };
+		F3DD90D51BFDBDF100F3D4E4 /* white-circle-md.png in Resources */ = {isa = PBXBuildFile; fileRef = F3DD90D41BFDBDF100F3D4E4 /* white-circle-md.png */; };
+		F3DD90D71BFDBE6A00F3D4E4 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DD90D61BFDBE6A00F3D4E4 /* TaskView.swift */; };
+		F3DD90D91BFDC1CE00F3D4E4 /* planetsurface.png in Resources */ = {isa = PBXBuildFile; fileRef = F3DD90D81BFDC1CE00F3D4E4 /* planetsurface.png */; };
+		F3DD90DB1BFDC65B00F3D4E4 /* _coins_stacks-256.png in Resources */ = {isa = PBXBuildFile; fileRef = F3DD90DA1BFDC65B00F3D4E4 /* _coins_stacks-256.png */; };
+		F3DD90DD1BFDCCBF00F3D4E4 /* CompleteTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DD90DC1BFDCCBF00F3D4E4 /* CompleteTask.swift */; };
+		F3DD90DF1BFE9D6300F3D4E4 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = F3DD90DE1BFE9D6300F3D4E4 /* camera.png */; };
+		F3DD90E11BFEA3D700F3D4E4 /* RocketScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DD90E01BFEA3D700F3D4E4 /* RocketScreen.swift */; };
+		F3DD90E31BFEA4ED00F3D4E4 /* rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = F3DD90E21BFEA4ED00F3D4E4 /* rocket.png */; };
+		F3DD90E51BFEA95400F3D4E4 /* HomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DD90E41BFEA95400F3D4E4 /* HomeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +67,24 @@
 		F3DD90B01BFD28E700F3D4E4 /* LearnUp2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnUp2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3DD90B41BFD28E700F3D4E4 /* LearnUp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnUp2UITests.swift; sourceTree = "<group>"; };
 		F3DD90B61BFD28E700F3D4E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3DD90C21BFD4C0300F3D4E4 /* starry-sky-of-bretagne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "starry-sky-of-bretagne.jpg"; sourceTree = "<group>"; };
+		F3DD90C41BFD4DF800F3D4E4 /* FEZ-04-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "FEZ-04-512.png"; sourceTree = "<group>"; };
+		F3DD90C61BFD4E0500F3D4E4 /* Earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Earth.png; sourceTree = "<group>"; };
+		F3DD90C81BFD4F5D00F3D4E4 /* Terra_globe_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Terra_globe_icon.png; sourceTree = "<group>"; };
+		F3DD90CA1BFD567500F3D4E4 /* Picture1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Picture1.png; sourceTree = "<group>"; };
+		F3DD90CC1BFD58F400F3D4E4 /* earthicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earthicon.png; sourceTree = "<group>"; };
+		F3DD90CE1BFDB66D00F3D4E4 /* Beta_Team_Solar_System_Neptune.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Beta_Team_Solar_System_Neptune.png; sourceTree = "<group>"; };
+		F3DD90D01BFDBA2200F3D4E4 /* MyTasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTasks.swift; sourceTree = "<group>"; };
+		F3DD90D21BFDBD6C00F3D4E4 /* light-blue-circle-hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light-blue-circle-hi.png"; sourceTree = "<group>"; };
+		F3DD90D41BFDBDF100F3D4E4 /* white-circle-md.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white-circle-md.png"; sourceTree = "<group>"; };
+		F3DD90D61BFDBE6A00F3D4E4 /* TaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		F3DD90D81BFDC1CE00F3D4E4 /* planetsurface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planetsurface.png; sourceTree = "<group>"; };
+		F3DD90DA1BFDC65B00F3D4E4 /* _coins_stacks-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "_coins_stacks-256.png"; sourceTree = "<group>"; };
+		F3DD90DC1BFDCCBF00F3D4E4 /* CompleteTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteTask.swift; sourceTree = "<group>"; };
+		F3DD90DE1BFE9D6300F3D4E4 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		F3DD90E01BFEA3D700F3D4E4 /* RocketScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RocketScreen.swift; sourceTree = "<group>"; };
+		F3DD90E21BFEA4ED00F3D4E4 /* rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket.png; sourceTree = "<group>"; };
+		F3DD90E41BFEA95400F3D4E4 /* HomeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +137,25 @@
 			children = (
 				F3DD90911BFD28E700F3D4E4 /* AppDelegate.swift */,
 				F3DD90931BFD28E700F3D4E4 /* ViewController.swift */,
+				F3DD90D01BFDBA2200F3D4E4 /* MyTasks.swift */,
+				F3DD90D61BFDBE6A00F3D4E4 /* TaskView.swift */,
 				F3DD90951BFD28E700F3D4E4 /* Main.storyboard */,
+				F3DD90E41BFEA95400F3D4E4 /* HomeButton.swift */,
+				F3DD90E01BFEA3D700F3D4E4 /* RocketScreen.swift */,
+				F3DD90DC1BFDCCBF00F3D4E4 /* CompleteTask.swift */,
+				F3DD90E21BFEA4ED00F3D4E4 /* rocket.png */,
+				F3DD90DA1BFDC65B00F3D4E4 /* _coins_stacks-256.png */,
+				F3DD90D81BFDC1CE00F3D4E4 /* planetsurface.png */,
+				F3DD90DE1BFE9D6300F3D4E4 /* camera.png */,
+				F3DD90D41BFDBDF100F3D4E4 /* white-circle-md.png */,
+				F3DD90CE1BFDB66D00F3D4E4 /* Beta_Team_Solar_System_Neptune.png */,
+				F3DD90D21BFDBD6C00F3D4E4 /* light-blue-circle-hi.png */,
+				F3DD90CA1BFD567500F3D4E4 /* Picture1.png */,
+				F3DD90CC1BFD58F400F3D4E4 /* earthicon.png */,
+				F3DD90C41BFD4DF800F3D4E4 /* FEZ-04-512.png */,
+				F3DD90C81BFD4F5D00F3D4E4 /* Terra_globe_icon.png */,
+				F3DD90C61BFD4E0500F3D4E4 /* Earth.png */,
+				F3DD90C21BFD4C0300F3D4E4 /* starry-sky-of-bretagne.jpg */,
 				F3DD909B1BFD28E700F3D4E4 /* Assets.xcassets */,
 				F3DD909D1BFD28E700F3D4E4 /* LaunchScreen.storyboard */,
 				F3DD90A01BFD28E700F3D4E4 /* Info.plist */,
@@ -196,6 +250,7 @@
 				TargetAttributes = {
 					F3DD908D1BFD28E700F3D4E4 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = E67CH76HJ4;
 					};
 					F3DD90A41BFD28E700F3D4E4 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -232,9 +287,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3DD90C71BFD4E0500F3D4E4 /* Earth.png in Resources */,
 				F3DD909F1BFD28E700F3D4E4 /* LaunchScreen.storyboard in Resources */,
+				F3DD90CD1BFD58F400F3D4E4 /* earthicon.png in Resources */,
+				F3DD90C31BFD4C0300F3D4E4 /* starry-sky-of-bretagne.jpg in Resources */,
+				F3DD90DF1BFE9D6300F3D4E4 /* camera.png in Resources */,
+				F3DD90E31BFEA4ED00F3D4E4 /* rocket.png in Resources */,
+				F3DD90C91BFD4F5D00F3D4E4 /* Terra_globe_icon.png in Resources */,
+				F3DD90CB1BFD567500F3D4E4 /* Picture1.png in Resources */,
+				F3DD90D31BFDBD6C00F3D4E4 /* light-blue-circle-hi.png in Resources */,
 				F3DD909C1BFD28E700F3D4E4 /* Assets.xcassets in Resources */,
+				F3DD90D51BFDBDF100F3D4E4 /* white-circle-md.png in Resources */,
+				F3DD90DB1BFDC65B00F3D4E4 /* _coins_stacks-256.png in Resources */,
+				F3DD90CF1BFDB66D00F3D4E4 /* Beta_Team_Solar_System_Neptune.png in Resources */,
 				F3DD90971BFD28E700F3D4E4 /* Main.storyboard in Resources */,
+				F3DD90D91BFDC1CE00F3D4E4 /* planetsurface.png in Resources */,
+				F3DD90C51BFD4DF800F3D4E4 /* FEZ-04-512.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +327,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3DD90E51BFEA95400F3D4E4 /* HomeButton.swift in Sources */,
+				F3DD90D11BFDBA2200F3D4E4 /* MyTasks.swift in Sources */,
 				F3DD909A1BFD28E700F3D4E4 /* LearnUp2.xcdatamodeld in Sources */,
+				F3DD90E11BFEA3D700F3D4E4 /* RocketScreen.swift in Sources */,
 				F3DD90941BFD28E700F3D4E4 /* ViewController.swift in Sources */,
+				F3DD90DD1BFDCCBF00F3D4E4 /* CompleteTask.swift in Sources */,
+				F3DD90D71BFDBE6A00F3D4E4 /* TaskView.swift in Sources */,
 				F3DD90921BFD28E700F3D4E4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,10 +474,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LearnUp2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nathaniel.LearnUp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +488,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LearnUp2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nathaniel.LearnUp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
