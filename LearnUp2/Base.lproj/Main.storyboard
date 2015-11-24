@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZON-m3-96w">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
@@ -29,18 +29,6 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BUR-Jy-WKT">
-                                <rect key="frame" x="20" y="25" width="48" height="30"/>
-                                <state key="normal" title="&lt; Back"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cN6-rq-x5u">
-                                <rect key="frame" x="321" y="24" width="34" height="32"/>
-                                <state key="normal" title="Button" image="FEZ-04-512.png"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Wt-hq-OkT">
-                                <rect key="frame" x="173" y="28" width="28" height="28"/>
-                                <state key="normal" image="earthicon.png"/>
-                            </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cE2-Oj-VcP">
                                 <rect key="frame" x="88" y="180" width="199" height="66"/>
                                 <subviews>
@@ -86,6 +74,27 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Wm5-19-CMd">
+                        <nil key="title"/>
+                        <barButtonItem key="backBarButtonItem" title="Back" id="248-B3-CV2">
+                            <inset key="imageInsets" minX="0.0" minY="-1" maxX="0.0" maxY="0.0"/>
+                        </barButtonItem>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pO9-wb-5gQ">
+                            <rect key="frame" x="144" y="5" width="88" height="34"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <accessibility key="accessibilityConfiguration">
+                                <accessibilityTraits key="traits" button="YES" image="YES"/>
+                            </accessibility>
+                            <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                            <state key="normal" image="earthbutton.png"/>
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="show" id="smr-Wh-CNr"/>
+                            </connections>
+                        </button>
+                        <barButtonItem key="rightBarButtonItem" image="settings.png" id="hye-dZ-h9w">
+                            <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="myTasksButton" destination="cE2-Oj-VcP" id="UF8-gv-ih1"/>
@@ -104,20 +113,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="1.5" y="674.5"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="YGf-Mv-IiW">
-            <objects>
-                <navigationController id="bfb-qE-QcJ" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="e2W-BW-fEH">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="v7R-Dh-5OJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-651" y="341"/>
+            <point key="canvasLocation" x="588.5" y="674.5"/>
         </scene>
         <!--My Tasks-->
         <scene sceneID="Ot4-At-D4a">
@@ -134,24 +130,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="253" verticalHuggingPriority="251" fixedFrame="YES" image="starry-sky-of-bretagne.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DFg-c7-6tY">
                                 <rect key="frame" x="-275" y="-308" width="1049" height="1283"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zod-jZ-u1w">
-                                <rect key="frame" x="20" y="25" width="48" height="30"/>
-                                <state key="normal" title="&lt; Back"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="zMS-ri-8ga"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bNz-8a-SCO">
-                                <rect key="frame" x="321" y="24" width="34" height="32"/>
-                                <state key="normal" title="Button" image="FEZ-04-512.png"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qyf-un-2uv">
-                                <rect key="frame" x="173" y="28" width="28" height="28"/>
-                                <state key="normal" image="earthicon.png"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="1a9-32-zEr"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Tasks" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GlF-e2-MgZ">
                                 <rect key="frame" x="46" y="78" width="283" height="128"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="53"/>
@@ -174,7 +152,20 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="FFI-YH-i9d"/>
+                    <navigationItem key="navigationItem" id="FFI-YH-i9d">
+                        <nil key="title"/>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Jgm-X1-Yej">
+                            <rect key="frame" x="172" y="6" width="32" height="32"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="earthbutton.png"/>
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="show" id="hVX-7i-a1h"/>
+                            </connections>
+                        </button>
+                        <barButtonItem key="rightBarButtonItem" image="settings.png" id="ngZ-81-zTP">
+                            <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="searchDisplayController" destination="7yf-hz-ZXB" id="W1o-eP-k2u"/>
@@ -190,7 +181,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="615.5" y="426.5"/>
+            <point key="canvasLocation" x="1202.5" y="426.5"/>
         </scene>
         <!--Task View-->
         <scene sceneID="zW9-AH-97H">
@@ -207,24 +198,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="planetsurface.png" translatesAutoresizingMaskIntoConstraints="NO" id="KIl-cn-Qcm">
                                 <rect key="frame" x="-461" y="-12" width="1296" height="692"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UVG-Nu-efA">
-                                <rect key="frame" x="20" y="25" width="48" height="30"/>
-                                <state key="normal" title="&lt; Back"/>
-                                <connections>
-                                    <segue destination="8D3-vZ-4eS" kind="show" id="oRb-Ag-PZu"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jDK-5b-aV8">
-                                <rect key="frame" x="321" y="24" width="34" height="32"/>
-                                <state key="normal" title="Button" image="FEZ-04-512.png"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FXi-wE-0ba">
-                                <rect key="frame" x="173" y="28" width="28" height="28"/>
-                                <state key="normal" image="earthicon.png"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="aOh-17-EPD"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Counting Coins!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SUW-XH-S3z">
                                 <rect key="frame" x="15" y="64" width="344" height="140"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="45"/>
@@ -266,7 +239,20 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="rgZ-ms-ETt"/>
+                    <navigationItem key="navigationItem" id="rgZ-ms-ETt">
+                        <nil key="title"/>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="avB-EH-Hb7">
+                            <rect key="frame" x="144" y="-22" width="88" height="88"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="earthbutton.png"/>
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="show" id="uL6-RU-cPh"/>
+                            </connections>
+                        </button>
+                        <barButtonItem key="rightBarButtonItem" image="settings.png" id="Nfy-0B-XBG">
+                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="coinSquare" destination="rGl-hb-4Lv" id="eQh-BN-oy0"/>
@@ -283,7 +269,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="1219.5" y="340.5"/>
+            <point key="canvasLocation" x="1806.5" y="340.5"/>
         </scene>
         <!--Complete Task-->
         <scene sceneID="1sF-us-hqu">
@@ -300,21 +286,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="planetsurface.png" translatesAutoresizingMaskIntoConstraints="NO" id="IR2-KG-fiO">
                                 <rect key="frame" x="-461" y="-12" width="1296" height="692"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VYa-84-mKw">
-                                <rect key="frame" x="20" y="25" width="48" height="30"/>
-                                <state key="normal" title="&lt; Back"/>
-                                <connections>
-                                    <segue destination="MG3-GT-iIZ" kind="show" id="Gl1-wK-Ggc"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mRF-eQ-rkR">
-                                <rect key="frame" x="321" y="24" width="34" height="32"/>
-                                <state key="normal" title="Button" image="FEZ-04-512.png"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CNc-ne-Bxm">
-                                <rect key="frame" x="173" y="28" width="28" height="28"/>
-                                <state key="normal" image="earthicon.png"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5XH-on-20G">
                                 <rect key="frame" x="86" y="257" width="202" height="178"/>
                                 <state key="normal" image="camera.png"/>
@@ -344,11 +315,23 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="6c1-Ng-IdT"/>
+                    <navigationItem key="navigationItem" id="6c1-Ng-IdT">
+                        <nil key="title"/>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="LfV-yg-WuY">
+                            <rect key="frame" x="172" y="6" width="32" height="32"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="earthbutton.png"/>
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="show" id="BNl-HP-BUB"/>
+                            </connections>
+                        </button>
+                        <barButtonItem key="rightBarButtonItem" image="settings.png" id="O5K-3S-3cy">
+                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="searchDisplayController" destination="7yf-hz-ZXB" id="pMy-Ux-4Hj"/>
-                        <segue destination="BYZ-38-t0r" kind="show" id="wHa-0a-ey4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Nx-TY-dxi" sceneMemberID="firstResponder"/>
@@ -361,7 +344,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="1917.5" y="340.5"/>
+            <point key="canvasLocation" x="2504.5" y="340.5"/>
         </scene>
         <!--Rocket Screen-->
         <scene sceneID="NY7-gI-764">
@@ -378,24 +361,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="253" verticalHuggingPriority="251" fixedFrame="YES" image="starry-sky-of-bretagne.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="OyJ-b6-2Bj">
                                 <rect key="frame" x="-275" y="-308" width="1049" height="1283"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Rw-tx-8SZ">
-                                <rect key="frame" x="20" y="25" width="48" height="30"/>
-                                <state key="normal" title="&lt; Back"/>
-                                <connections>
-                                    <segue destination="kyh-s3-07o" kind="show" id="jL8-4D-n3o"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lqJ-bv-x83">
-                                <rect key="frame" x="321" y="24" width="34" height="32"/>
-                                <state key="normal" title="Button" image="FEZ-04-512.png"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qO0-Zl-xt1">
-                                <rect key="frame" x="173" y="28" width="28" height="28"/>
-                                <state key="normal" image="earthicon.png"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="XBZ-Sf-5lq"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rocket.png" translatesAutoresizingMaskIntoConstraints="NO" id="7NO-LU-oVY">
                                 <rect key="frame" x="0.0" y="234" width="375" height="200"/>
                             </imageView>
@@ -412,6 +377,20 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="fin-I3-6NT">
+                        <nil key="title"/>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="VSU-Cw-Y8g">
+                            <rect key="frame" x="172" y="6" width="32" height="32"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="earthbutton.png"/>
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="show" id="P9U-4l-Cgf"/>
+                            </connections>
+                        </button>
+                        <barButtonItem key="rightBarButtonItem" image="settings.png" id="Bpu-0e-lfB">
+                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="searchDisplayController" destination="7yf-hz-ZXB" id="pV4-fg-P9I"/>
@@ -427,24 +406,54 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="2456.5" y="406.5"/>
+            <point key="canvasLocation" x="3043.5" y="406.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="rOj-RH-CG4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZON-m3-96w" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wBP-ZX-LpZ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="eSE-Oy-mn0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eme-6b-odV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <barButtonItem image="settings.png" id="SqU-NR-Ipb">
+                    <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </barButtonItem>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="j9z-zt-IkT">
+                    <rect key="frame" x="0.0" y="0.0" width="88" height="34"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <accessibility key="accessibilityConfiguration">
+                        <accessibilityTraits key="traits" button="YES" image="YES"/>
+                    </accessibility>
+                    <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
+                    <state key="normal" image="earthbutton.png"/>
+                </button>
+                <barButtonItem title="Back" id="KPd-p4-BhV">
+                    <inset key="imageInsets" minX="0.0" minY="-1" maxX="0.0" maxY="0.0"/>
+                </barButtonItem>
+            </objects>
+            <point key="canvasLocation" x="1.5" y="674.5"/>
         </scene>
     </scenes>
     <resources>
         <image name="Earth.png" width="980" height="979"/>
-        <image name="FEZ-04-512.png" width="512" height="512"/>
         <image name="_coins_stacks-256.png" width="256" height="256"/>
         <image name="camera.png" width="348" height="306"/>
-        <image name="earthicon.png" width="88" height="88"/>
+        <image name="earthbutton.png" width="32" height="32"/>
         <image name="planetsurface.png" width="759" height="1350"/>
         <image name="rocket.png" width="333" height="623"/>
+        <image name="settings.png" width="27" height="27"/>
         <image name="starry-sky-of-bretagne.jpg" width="2592" height="1728"/>
         <image name="white-circle-md.png" width="300" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="oRb-Ag-PZu"/>
-        <segue reference="Gl1-wK-Ggc"/>
-        <segue reference="jL8-4D-n3o"/>
-        <segue reference="XBZ-Sf-5lq"/>
+        <segue reference="hVX-7i-a1h"/>
     </inferredMetricsTieBreakers>
 </document>
