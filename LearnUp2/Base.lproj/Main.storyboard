@@ -54,6 +54,9 @@
                                         <state key="normal" title="Progress">
                                             <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="XEH-dl-Y6D" kind="show" id="4oC-Zu-aLr"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -289,6 +292,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5XH-on-20G">
                                 <rect key="frame" x="86" y="257" width="202" height="178"/>
                                 <state key="normal" image="camera.png"/>
+                                <connections>
+                                    <action selector="camerButtonPress:" destination="kyh-s3-07o" eventType="touchUpInside" id="SAE-Md-RdD"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Take a Picture of Your Work!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EMp-3O-EIc">
                                 <rect key="frame" x="20" y="115" width="328" height="69"/>
@@ -312,6 +318,20 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.71020754419999998" blue="0.17252828719999999" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sCg-hj-Eh9">
+                                <rect key="frame" x="123" y="454" width="123" height="33"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
+                                <state key="normal" title="Retake?">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="retakeAction:" destination="kyh-s3-07o" eventType="touchUpInside" id="Lif-Bi-p2C"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XbX-Yw-1Rs">
+                                <rect key="frame" x="79" y="257" width="216" height="178"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -331,6 +351,11 @@
                     </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="cameraButton" destination="5XH-on-20G" id="gFQ-xM-j7T"/>
+                        <outlet property="doneButton" destination="jcH-Yw-9rc" id="urb-wC-Ylp"/>
+                        <outlet property="greenBar" destination="txv-26-HSK" id="j5n-Mz-77l"/>
+                        <outlet property="imageDisplay" destination="XbX-Yw-1Rs" id="UgL-dc-fGL"/>
+                        <outlet property="retakeButton" destination="sCg-hj-Eh9" id="Y1f-f7-Hcd"/>
                         <outlet property="searchDisplayController" destination="7yf-hz-ZXB" id="pMy-Ux-4Hj"/>
                     </connections>
                 </viewController>
@@ -454,6 +479,7 @@
         <image name="white-circle-md.png" width="300" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="hVX-7i-a1h"/>
+        <segue reference="BNl-HP-BUB"/>
+        <segue reference="uua-GX-maT"/>
     </inferredMetricsTieBreakers>
 </document>
