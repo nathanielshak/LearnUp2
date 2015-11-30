@@ -118,6 +118,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F3995E801C0D130500CE7989 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F3F9D8AF1C043F7400FBAFE2 /* earthbutton.png */,
+				F3DD90E21BFEA4ED00F3D4E4 /* rocket.png */,
+				F3DD90DA1BFDC65B00F3D4E4 /* _coins_stacks-256.png */,
+				F3DD90D81BFDC1CE00F3D4E4 /* planetsurface.png */,
+				F3DD90DE1BFE9D6300F3D4E4 /* camera.png */,
+				F3DD90D41BFDBDF100F3D4E4 /* white-circle-md.png */,
+				F3DD90CE1BFDB66D00F3D4E4 /* Beta_Team_Solar_System_Neptune.png */,
+				F3DD90D21BFDBD6C00F3D4E4 /* light-blue-circle-hi.png */,
+				F3DD90CA1BFD567500F3D4E4 /* Picture1.png */,
+				F3DD90CC1BFD58F400F3D4E4 /* earthicon.png */,
+				F3F9D8AD1C043E3600FBAFE2 /* settings.png */,
+				F3DD90C41BFD4DF800F3D4E4 /* FEZ-04-512.png */,
+				F3DD90C81BFD4F5D00F3D4E4 /* Terra_globe_icon.png */,
+				F3DD90C61BFD4E0500F3D4E4 /* Earth.png */,
+				F3DD90C21BFD4C0300F3D4E4 /* starry-sky-of-bretagne.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		F3995E811C0D131B00CE7989 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F3DD90911BFD28E700F3D4E4 /* AppDelegate.swift */,
+				F3DD90931BFD28E700F3D4E4 /* ViewController.swift */,
+				F3F9D8B11C04563500FBAFE2 /* HomeScreen.swift */,
+				F3DD90D01BFDBA2200F3D4E4 /* MyTasks.swift */,
+				F3DD90D61BFDBE6A00F3D4E4 /* TaskView.swift */,
+				F3DD90E01BFEA3D700F3D4E4 /* RocketScreen.swift */,
+				F3DD90DC1BFDCCBF00F3D4E4 /* CompleteTask.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		F3DD90851BFD28E700F3D4E4 = {
 			isa = PBXGroup;
 			children = (
@@ -141,30 +177,10 @@
 		F3DD90901BFD28E700F3D4E4 /* LearnUp2 */ = {
 			isa = PBXGroup;
 			children = (
-				F3DD90911BFD28E700F3D4E4 /* AppDelegate.swift */,
-				F3DD90931BFD28E700F3D4E4 /* ViewController.swift */,
-				F3F9D8B11C04563500FBAFE2 /* HomeScreen.swift */,
-				F3DD90D01BFDBA2200F3D4E4 /* MyTasks.swift */,
-				F3DD90D61BFDBE6A00F3D4E4 /* TaskView.swift */,
+				F3995E811C0D131B00CE7989 /* View Controllers */,
 				F3DD90951BFD28E700F3D4E4 /* Main.storyboard */,
 				F3DD90E41BFEA95400F3D4E4 /* HomeButton.swift */,
-				F3DD90E01BFEA3D700F3D4E4 /* RocketScreen.swift */,
-				F3DD90DC1BFDCCBF00F3D4E4 /* CompleteTask.swift */,
-				F3F9D8AF1C043F7400FBAFE2 /* earthbutton.png */,
-				F3DD90E21BFEA4ED00F3D4E4 /* rocket.png */,
-				F3DD90DA1BFDC65B00F3D4E4 /* _coins_stacks-256.png */,
-				F3DD90D81BFDC1CE00F3D4E4 /* planetsurface.png */,
-				F3DD90DE1BFE9D6300F3D4E4 /* camera.png */,
-				F3DD90D41BFDBDF100F3D4E4 /* white-circle-md.png */,
-				F3DD90CE1BFDB66D00F3D4E4 /* Beta_Team_Solar_System_Neptune.png */,
-				F3DD90D21BFDBD6C00F3D4E4 /* light-blue-circle-hi.png */,
-				F3DD90CA1BFD567500F3D4E4 /* Picture1.png */,
-				F3DD90CC1BFD58F400F3D4E4 /* earthicon.png */,
-				F3F9D8AD1C043E3600FBAFE2 /* settings.png */,
-				F3DD90C41BFD4DF800F3D4E4 /* FEZ-04-512.png */,
-				F3DD90C81BFD4F5D00F3D4E4 /* Terra_globe_icon.png */,
-				F3DD90C61BFD4E0500F3D4E4 /* Earth.png */,
-				F3DD90C21BFD4C0300F3D4E4 /* starry-sky-of-bretagne.jpg */,
+				F3995E801C0D130500CE7989 /* Images */,
 				F3DD909B1BFD28E700F3D4E4 /* Assets.xcassets */,
 				F3DD909D1BFD28E700F3D4E4 /* LaunchScreen.storyboard */,
 				F3DD90A01BFD28E700F3D4E4 /* Info.plist */,

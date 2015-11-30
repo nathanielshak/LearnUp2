@@ -22,4 +22,12 @@ class MyTasks: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "showTask"{
+            if let destinationVC = segue.destinationViewController as? TaskView{
+                destinationVC.titleString = "Counting Coins!"
+                destinationVC.descriptionString = "Activity: Find as many ways as you can to arrange coins into stacks of 27 cents. \r\nCompletion: Take a picture of these and submit it!"
+            }
+        }
+    }
 }

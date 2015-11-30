@@ -10,11 +10,20 @@ import UIKit
 
 class TaskView: UIViewController {
     
+    
+    @IBOutlet weak var taskTitle: UILabel!
     @IBOutlet weak var coinSquare: UIView!
+    @IBOutlet weak var descriptionText: UITextView!
+    var descriptionString: String!
+    var titleString: String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         coinSquare.layer.cornerRadius  = 10;
-        
+        print(titleString)
+        print(descriptionString)
+        self.taskTitle.text = titleString
+        self.descriptionText.text = descriptionString
     }
     
     
