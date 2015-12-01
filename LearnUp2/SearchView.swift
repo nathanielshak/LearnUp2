@@ -1,14 +1,14 @@
 //
-//  TasksTabController.swift
+//  SearchView.swift
 //  LearnUp2
 //
-//  Created by Nathaniel Shak on 11/30/15.
+//  Created by Nathaniel Shak on 12/1/15.
 //  Copyright © 2015 Nathaniel Shak. All rights reserved.
 //
 
 import UIKit
 
-class TasksTabController: UITabBarController {
+class SearchView: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,5 +20,4 @@ class TasksTabController: UITabBarController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 }

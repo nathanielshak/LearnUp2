@@ -22,6 +22,7 @@
 		F3995E9D1C0D682A00CE7989 /* camera-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F3995E9C1C0D682A00CE7989 /* camera-icon.png */; };
 		F3995E9F1C0D68F800CE7989 /* photoroll.png in Resources */ = {isa = PBXBuildFile; fileRef = F3995E9E1C0D68F800CE7989 /* photoroll.png */; };
 		F3995EA11C0D6A3100CE7989 /* cameraRoll.png in Resources */ = {isa = PBXBuildFile; fileRef = F3995EA01C0D6A3100CE7989 /* cameraRoll.png */; };
+		F3995EA51C0D745F00CE7989 /* homebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = F3995EA41C0D745F00CE7989 /* homebutton.png */; };
 		F3DD90921BFD28E700F3D4E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DD90911BFD28E700F3D4E4 /* AppDelegate.swift */; };
 		F3DD90941BFD28E700F3D4E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DD90931BFD28E700F3D4E4 /* ViewController.swift */; };
 		F3DD90971BFD28E700F3D4E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DD90951BFD28E700F3D4E4 /* Main.storyboard */; };
@@ -48,6 +49,10 @@
 		F3DD90E11BFEA3D700F3D4E4 /* RocketScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DD90E01BFEA3D700F3D4E4 /* RocketScreen.swift */; };
 		F3DD90E31BFEA4ED00F3D4E4 /* rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = F3DD90E21BFEA4ED00F3D4E4 /* rocket.png */; };
 		F3DD90E51BFEA95400F3D4E4 /* HomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DD90E41BFEA95400F3D4E4 /* HomeButton.swift */; };
+		F3E0B4931C0E39D40071861D /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E0B4921C0E39D40071861D /* SearchView.swift */; };
+		F3E0B4951C0E3A020071861D /* SearchResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E0B4941C0E3A020071861D /* SearchResultsView.swift */; };
+		F3E0B4971C0E59740071861D /* SearchTaskCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3E0B4961C0E59740071861D /* SearchTaskCell.xib */; };
+		F3E0B4991C0E59BB0071861D /* SearchTaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E0B4981C0E59BB0071861D /* SearchTaskCell.swift */; };
 		F3F9D8AE1C043E3600FBAFE2 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = F3F9D8AD1C043E3600FBAFE2 /* settings.png */; };
 		F3F9D8B01C043F7400FBAFE2 /* earthbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = F3F9D8AF1C043F7400FBAFE2 /* earthbutton.png */; };
 		F3F9D8B21C04563500FBAFE2 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F9D8B11C04563500FBAFE2 /* HomeScreen.swift */; };
@@ -86,6 +91,7 @@
 		F3995E9C1C0D682A00CE7989 /* camera-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera-icon.png"; path = "../../../../../../../Downloads/camera-icon.png"; sourceTree = "<group>"; };
 		F3995E9E1C0D68F800CE7989 /* photoroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = photoroll.png; path = ../../../../../../../Downloads/photoroll.png; sourceTree = "<group>"; };
 		F3995EA01C0D6A3100CE7989 /* cameraRoll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cameraRoll.png; path = ../../../../../../../Downloads/cameraRoll.png; sourceTree = "<group>"; };
+		F3995EA41C0D745F00CE7989 /* homebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = homebutton.png; path = ../../../../../../../Pictures/homebutton.png; sourceTree = "<group>"; };
 		F3DD908E1BFD28E700F3D4E4 /* LearnUp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnUp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3DD90911BFD28E700F3D4E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3DD90931BFD28E700F3D4E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +124,10 @@
 		F3DD90E01BFEA3D700F3D4E4 /* RocketScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RocketScreen.swift; sourceTree = "<group>"; };
 		F3DD90E21BFEA4ED00F3D4E4 /* rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket.png; sourceTree = "<group>"; };
 		F3DD90E41BFEA95400F3D4E4 /* HomeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeButton.swift; sourceTree = "<group>"; };
+		F3E0B4921C0E39D40071861D /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		F3E0B4941C0E3A020071861D /* SearchResultsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsView.swift; sourceTree = "<group>"; };
+		F3E0B4961C0E59740071861D /* SearchTaskCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchTaskCell.xib; sourceTree = "<group>"; };
+		F3E0B4981C0E59BB0071861D /* SearchTaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTaskCell.swift; sourceTree = "<group>"; };
 		F3F9D8AD1C043E3600FBAFE2 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
 		F3F9D8AF1C043F7400FBAFE2 /* earthbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earthbutton.png; sourceTree = "<group>"; };
 		F3F9D8B11C04563500FBAFE2 /* HomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
@@ -151,6 +161,7 @@
 		F3995E801C0D130500CE7989 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F3995EA41C0D745F00CE7989 /* homebutton.png */,
 				F3995E9C1C0D682A00CE7989 /* camera-icon.png */,
 				F3F9D8AF1C043F7400FBAFE2 /* earthbutton.png */,
 				F3DD90E21BFEA4ED00F3D4E4 /* rocket.png */,
@@ -185,6 +196,8 @@
 				F3DD90DC1BFDCCBF00F3D4E4 /* CompleteTask.swift */,
 				F3995E821C0D1C0200CE7989 /* LoginScreen.swift */,
 				F3995E8C1C0D4CFC00CE7989 /* TasksTabController.swift */,
+				F3E0B4921C0E39D40071861D /* SearchView.swift */,
+				F3E0B4941C0E3A020071861D /* SearchResultsView.swift */,
 				F3995E8E1C0D4D9000CE7989 /* MyAssignedView.swift */,
 				F3995E901C0D4DC700CE7989 /* NewTasksView.swift */,
 				F3995E921C0D4DEC00CE7989 /* CreateView.swift */,
@@ -219,8 +232,10 @@
 				F3995E811C0D131B00CE7989 /* View Controllers */,
 				F3DD90951BFD28E700F3D4E4 /* Main.storyboard */,
 				F3995E941C0D4F5F00CE7989 /* MyAssignedCell.xib */,
+				F3E0B4961C0E59740071861D /* SearchTaskCell.xib */,
 				F3995E981C0D5BAA00CE7989 /* NewTaskCell.xib */,
 				F3995E861C0D23F800CE7989 /* ActivityFeedCell.xib */,
+				F3E0B4981C0E59BB0071861D /* SearchTaskCell.swift */,
 				F3995E881C0D243200CE7989 /* ActivityTableViewCell.swift */,
 				F3995E9A1C0D5BF000CE7989 /* NewTaskCell.swift */,
 				F3995E961C0D504700CE7989 /* AssignedTaskCell.swift */,
@@ -363,7 +378,9 @@
 				F3F9D8AE1C043E3600FBAFE2 /* settings.png in Resources */,
 				F3DD90C31BFD4C0300F3D4E4 /* starry-sky-of-bretagne.jpg in Resources */,
 				F3DD90DF1BFE9D6300F3D4E4 /* camera.png in Resources */,
+				F3995EA51C0D745F00CE7989 /* homebutton.png in Resources */,
 				F3DD90E31BFEA4ED00F3D4E4 /* rocket.png in Resources */,
+				F3E0B4971C0E59740071861D /* SearchTaskCell.xib in Resources */,
 				F3DD90C91BFD4F5D00F3D4E4 /* Terra_globe_icon.png in Resources */,
 				F3DD90CB1BFD567500F3D4E4 /* Picture1.png in Resources */,
 				F3995E9D1C0D682A00CE7989 /* camera-icon.png in Resources */,
@@ -406,11 +423,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3DD90E51BFEA95400F3D4E4 /* HomeButton.swift in Sources */,
+				F3E0B4931C0E39D40071861D /* SearchView.swift in Sources */,
 				F3DD90D11BFDBA2200F3D4E4 /* MyTasks.swift in Sources */,
 				F3995E971C0D504700CE7989 /* AssignedTaskCell.swift in Sources */,
 				F3995E891C0D243200CE7989 /* ActivityTableViewCell.swift in Sources */,
 				F3DD909A1BFD28E700F3D4E4 /* LearnUp2.xcdatamodeld in Sources */,
 				F3995E8F1C0D4D9000CE7989 /* MyAssignedView.swift in Sources */,
+				F3E0B4991C0E59BB0071861D /* SearchTaskCell.swift in Sources */,
 				F3995E911C0D4DC700CE7989 /* NewTasksView.swift in Sources */,
 				F3995E8D1C0D4CFC00CE7989 /* TasksTabController.swift in Sources */,
 				F3DD90E11BFEA3D700F3D4E4 /* RocketScreen.swift in Sources */,
@@ -421,6 +440,7 @@
 				F3F9D8B21C04563500FBAFE2 /* HomeScreen.swift in Sources */,
 				F3DD90DD1BFDCCBF00F3D4E4 /* CompleteTask.swift in Sources */,
 				F3DD90D71BFDBE6A00F3D4E4 /* TaskView.swift in Sources */,
+				F3E0B4951C0E3A020071861D /* SearchResultsView.swift in Sources */,
 				F3DD90921BFD28E700F3D4E4 /* AppDelegate.swift in Sources */,
 				F3995E831C0D1C0200CE7989 /* LoginScreen.swift in Sources */,
 			);
