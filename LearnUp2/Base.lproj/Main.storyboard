@@ -1,10 +1,94 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZON-m3-96w">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="COy-zA-KGo">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <scenes>
+        <!--Login Screen-->
+        <scene sceneID="Yri-dw-Qf3">
+            <objects>
+                <viewController id="T4P-yX-cM8" customClass="LoginScreen" customModule="LearnUp2" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="c8r-7G-L0A"/>
+                        <viewControllerLayoutGuide type="bottom" id="wBe-8G-mRs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wpj-Jn-ZiB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m21-I6-NnW">
+                                <rect key="frame" x="88" y="540" width="199" height="66"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fmU-Al-Kpn">
+                                        <rect key="frame" x="12" y="5" width="179" height="56"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="38"/>
+                                        <state key="normal" title="Teacher">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Learnup" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30x-Ex-SM7">
+                                <rect key="frame" x="88" y="60" width="199" height="106"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="44"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I am a..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pb5-7z-HT9">
+                                <rect key="frame" x="135" y="188" width="105" height="85"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="24"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0GM-YA-SVG">
+                                <rect key="frame" x="88" y="307" width="199" height="66"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YM9-LD-3lK">
+                                        <rect key="frame" x="12" y="5" width="179" height="56"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="38"/>
+                                        <state key="normal" title="Student">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="vHw-JH-4pF"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rcc-Jw-wmf">
+                                <rect key="frame" x="88" y="423" width="199" height="66"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WWV-4p-T8A">
+                                        <rect key="frame" x="10" y="8" width="179" height="56"/>
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="38"/>
+                                        <state key="normal" title="Parent">
+                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="4Ny-Ik-26J"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ShD-YK-kI4"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="parentButton" destination="Rcc-Jw-wmf" id="61d-mB-VSK"/>
+                        <outlet property="studentButton" destination="0GM-YA-SVG" id="ZWn-nH-wcj"/>
+                        <outlet property="teacherButton" destination="m21-I6-NnW" id="crT-bm-dTx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wno-o0-OiK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="992.5" y="-136.5"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -184,7 +268,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="1202.5" y="426.5"/>
+            <point key="canvasLocation" x="2014.5" y="426.5"/>
         </scene>
         <!--Task View-->
         <scene sceneID="zW9-AH-97H">
@@ -273,7 +357,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="1806.5" y="340.5"/>
+            <point key="canvasLocation" x="2618.5" y="340.5"/>
         </scene>
         <!--Complete Task-->
         <scene sceneID="1sF-us-hqu">
@@ -370,7 +454,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="2504.5" y="340.5"/>
+            <point key="canvasLocation" x="3316.5" y="340.5"/>
         </scene>
         <!--Rocket Screen-->
         <scene sceneID="NY7-gI-764">
@@ -432,40 +516,25 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="3043.5" y="406.5"/>
+            <point key="canvasLocation" x="3855.5" y="406.5"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="rOj-RH-CG4">
+        <scene sceneID="zgL-ve-vHE">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZON-m3-96w" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="COy-zA-KGo" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wBP-ZX-LpZ">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pUI-ek-4R4">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="eSE-Oy-mn0"/>
+                        <segue destination="T4P-yX-cM8" kind="relationship" relationship="rootViewController" id="Vrr-ru-oWU"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eme-6b-odV" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <barButtonItem image="settings.png" id="SqU-NR-Ipb">
-                    <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                </barButtonItem>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="j9z-zt-IkT">
-                    <rect key="frame" x="0.0" y="0.0" width="88" height="34"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <accessibility key="accessibilityConfiguration">
-                        <accessibilityTraits key="traits" button="YES" image="YES"/>
-                    </accessibility>
-                    <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
-                    <state key="normal" image="earthbutton.png"/>
-                </button>
-                <barButtonItem title="Back" id="KPd-p4-BhV">
-                    <inset key="imageInsets" minX="0.0" minY="-1" maxX="0.0" maxY="0.0"/>
-                </barButtonItem>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1j9-7F-6c1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1.5" y="674.5"/>
+            <point key="canvasLocation" x="330" y="-238"/>
         </scene>
     </scenes>
     <resources>
@@ -480,7 +549,7 @@
         <image name="white-circle-md.png" width="300" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="uL6-RU-cPh"/>
-        <segue reference="uua-GX-maT"/>
+        <segue reference="vHw-JH-4pF"/>
+        <segue reference="4oC-Zu-aLr"/>
     </inferredMetricsTieBreakers>
 </document>
