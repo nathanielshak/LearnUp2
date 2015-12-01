@@ -1,5 +1,5 @@
 //
-//  TeacherTasks.swift
+//  NewTasksView.swift
 //  LearnUp2
 //
 //  Created by Nathaniel Shak on 11/30/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TeacherTasks: UIViewController {
+class NewTasksView: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -157,7 +157,7 @@
         <!--NewTasks-->
         <scene sceneID="bjH-gC-WhD">
             <objects>
-                <viewController id="5ZD-zW-zb9" userLabel="NewTasks" sceneMemberID="viewController">
+                <viewController id="5ZD-zW-zb9" userLabel="NewTasks" customClass="NewTasksView" customModule="LearnUp2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Dj8-vU-siE"/>
                         <viewControllerLayoutGuide type="bottom" id="DPg-p1-aOW"/>
@@ -166,9 +166,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1c-Mr-ZeI">
-                                <rect key="frame" x="166" y="225" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="opR-0d-imD">
+                                <rect key="frame" x="0.0" y="245" width="375" height="373"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="New Tasks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PjD-Nl-x7x">
+                                <rect key="frame" x="116" y="107" width="142" height="59"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -184,7 +188,7 @@
         <!--Item-->
         <scene sceneID="Qs8-Uy-sQl">
             <objects>
-                <viewController id="Z2g-qy-Wsw" sceneMemberID="viewController">
+                <viewController id="Z2g-qy-Wsw" customClass="CreateView" customModule="LearnUp2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qkB-BT-bfR"/>
                         <viewControllerLayoutGuide type="bottom" id="Dxb-n0-Ewj"/>
@@ -193,8 +197,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="a" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hrl-dg-seI">
-                                <rect key="frame" x="193" y="187" width="9" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Create" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hrl-dg-seI">
+                                <rect key="frame" x="162" y="165" width="51" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -212,7 +216,7 @@
         <!--MyAssigned-->
         <scene sceneID="kRr-id-oO2">
             <objects>
-                <viewController id="5eX-ik-wat" userLabel="MyAssigned" sceneMemberID="viewController">
+                <viewController id="5eX-ik-wat" userLabel="MyAssigned" customClass="MyAssignedView" customModule="LearnUp2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pzc-0F-ki0"/>
                         <viewControllerLayoutGuide type="bottom" id="qbS-fF-2he"/>
@@ -222,24 +226,35 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="My Assigned" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ztm-mM-HA6">
-                                <rect key="frame" x="109" y="176" width="99" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <rect key="frame" x="103" y="98" width="168" height="59"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="26"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1SA-Fo-X31">
+                                <rect key="frame" x="0.0" y="222" width="375" height="396"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="5eX-ik-wat" id="6Qi-5y-eua"/>
+                                    <outlet property="delegate" destination="5eX-ik-wat" id="5Rh-g1-11M"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="My Assigned" id="x6m-W1-xW7"/>
+                    <connections>
+                        <outlet property="assignedTasksTable" destination="1SA-Fo-X31" id="hKV-0c-9ZN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ijj-XO-ZrG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2525.5" y="-1330.5"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Tasks Tab Controller-->
         <scene sceneID="CkR-Nz-E97">
             <objects>
-                <tabBarController id="DAA-ZU-L31" sceneMemberID="viewController">
+                <tabBarController id="DAA-ZU-L31" customClass="TasksTabController" customModule="LearnUp2" customModuleProvider="target" sceneMemberID="viewController">
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="yqx-xb-cPF">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>

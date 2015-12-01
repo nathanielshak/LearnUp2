@@ -11,7 +11,12 @@
 		F3995E851C0D1E5800CE7989 /* TeacherHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3995E841C0D1E5800CE7989 /* TeacherHome.swift */; };
 		F3995E871C0D23F800CE7989 /* ActivityFeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3995E861C0D23F800CE7989 /* ActivityFeedCell.xib */; };
 		F3995E891C0D243200CE7989 /* ActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3995E881C0D243200CE7989 /* ActivityTableViewCell.swift */; };
-		F3995E8B1C0D45A800CE7989 /* TeacherTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3995E8A1C0D45A800CE7989 /* TeacherTasks.swift */; };
+		F3995E8D1C0D4CFC00CE7989 /* TasksTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3995E8C1C0D4CFC00CE7989 /* TasksTabController.swift */; };
+		F3995E8F1C0D4D9000CE7989 /* MyAssignedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3995E8E1C0D4D9000CE7989 /* MyAssignedView.swift */; };
+		F3995E911C0D4DC700CE7989 /* NewTasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3995E901C0D4DC700CE7989 /* NewTasksView.swift */; };
+		F3995E931C0D4DEC00CE7989 /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3995E921C0D4DEC00CE7989 /* CreateView.swift */; };
+		F3995E951C0D4F5F00CE7989 /* MyAssignedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3995E941C0D4F5F00CE7989 /* MyAssignedCell.xib */; };
+		F3995E971C0D504700CE7989 /* AssignedTaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3995E961C0D504700CE7989 /* AssignedTaskCell.swift */; };
 		F3DD90921BFD28E700F3D4E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DD90911BFD28E700F3D4E4 /* AppDelegate.swift */; };
 		F3DD90941BFD28E700F3D4E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DD90931BFD28E700F3D4E4 /* ViewController.swift */; };
 		F3DD90971BFD28E700F3D4E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DD90951BFD28E700F3D4E4 /* Main.storyboard */; };
@@ -65,7 +70,12 @@
 		F3995E841C0D1E5800CE7989 /* TeacherHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherHome.swift; sourceTree = "<group>"; };
 		F3995E861C0D23F800CE7989 /* ActivityFeedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityFeedCell.xib; sourceTree = "<group>"; };
 		F3995E881C0D243200CE7989 /* ActivityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityTableViewCell.swift; sourceTree = "<group>"; };
-		F3995E8A1C0D45A800CE7989 /* TeacherTasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherTasks.swift; sourceTree = "<group>"; };
+		F3995E8C1C0D4CFC00CE7989 /* TasksTabController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasksTabController.swift; sourceTree = "<group>"; };
+		F3995E8E1C0D4D9000CE7989 /* MyAssignedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAssignedView.swift; sourceTree = "<group>"; };
+		F3995E901C0D4DC700CE7989 /* NewTasksView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTasksView.swift; sourceTree = "<group>"; };
+		F3995E921C0D4DEC00CE7989 /* CreateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		F3995E941C0D4F5F00CE7989 /* MyAssignedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyAssignedCell.xib; sourceTree = "<group>"; };
+		F3995E961C0D504700CE7989 /* AssignedTaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignedTaskCell.swift; sourceTree = "<group>"; };
 		F3DD908E1BFD28E700F3D4E4 /* LearnUp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnUp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3DD90911BFD28E700F3D4E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3DD90931BFD28E700F3D4E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -161,7 +171,10 @@
 				F3DD90E01BFEA3D700F3D4E4 /* RocketScreen.swift */,
 				F3DD90DC1BFDCCBF00F3D4E4 /* CompleteTask.swift */,
 				F3995E821C0D1C0200CE7989 /* LoginScreen.swift */,
-				F3995E8A1C0D45A800CE7989 /* TeacherTasks.swift */,
+				F3995E8C1C0D4CFC00CE7989 /* TasksTabController.swift */,
+				F3995E8E1C0D4D9000CE7989 /* MyAssignedView.swift */,
+				F3995E901C0D4DC700CE7989 /* NewTasksView.swift */,
+				F3995E921C0D4DEC00CE7989 /* CreateView.swift */,
 				F3995E841C0D1E5800CE7989 /* TeacherHome.swift */,
 			);
 			name = "View Controllers";
@@ -192,8 +205,10 @@
 			children = (
 				F3995E811C0D131B00CE7989 /* View Controllers */,
 				F3DD90951BFD28E700F3D4E4 /* Main.storyboard */,
+				F3995E941C0D4F5F00CE7989 /* MyAssignedCell.xib */,
 				F3995E861C0D23F800CE7989 /* ActivityFeedCell.xib */,
 				F3995E881C0D243200CE7989 /* ActivityTableViewCell.swift */,
+				F3995E961C0D504700CE7989 /* AssignedTaskCell.swift */,
 				F3DD90E41BFEA95400F3D4E4 /* HomeButton.swift */,
 				F3995E801C0D130500CE7989 /* Images */,
 				F3DD909B1BFD28E700F3D4E4 /* Assets.xcassets */,
@@ -338,6 +353,7 @@
 				F3DD90CB1BFD567500F3D4E4 /* Picture1.png in Resources */,
 				F3DD90D31BFDBD6C00F3D4E4 /* light-blue-circle-hi.png in Resources */,
 				F3995E871C0D23F800CE7989 /* ActivityFeedCell.xib in Resources */,
+				F3995E951C0D4F5F00CE7989 /* MyAssignedCell.xib in Resources */,
 				F3DD909C1BFD28E700F3D4E4 /* Assets.xcassets in Resources */,
 				F3DD90D51BFDBDF100F3D4E4 /* white-circle-md.png in Resources */,
 				F3F9D8B01C043F7400FBAFE2 /* earthbutton.png in Resources */,
@@ -372,12 +388,16 @@
 			files = (
 				F3DD90E51BFEA95400F3D4E4 /* HomeButton.swift in Sources */,
 				F3DD90D11BFDBA2200F3D4E4 /* MyTasks.swift in Sources */,
+				F3995E971C0D504700CE7989 /* AssignedTaskCell.swift in Sources */,
 				F3995E891C0D243200CE7989 /* ActivityTableViewCell.swift in Sources */,
 				F3DD909A1BFD28E700F3D4E4 /* LearnUp2.xcdatamodeld in Sources */,
+				F3995E8F1C0D4D9000CE7989 /* MyAssignedView.swift in Sources */,
+				F3995E911C0D4DC700CE7989 /* NewTasksView.swift in Sources */,
+				F3995E8D1C0D4CFC00CE7989 /* TasksTabController.swift in Sources */,
 				F3DD90E11BFEA3D700F3D4E4 /* RocketScreen.swift in Sources */,
 				F3995E851C0D1E5800CE7989 /* TeacherHome.swift in Sources */,
 				F3DD90941BFD28E700F3D4E4 /* ViewController.swift in Sources */,
-				F3995E8B1C0D45A800CE7989 /* TeacherTasks.swift in Sources */,
+				F3995E931C0D4DEC00CE7989 /* CreateView.swift in Sources */,
 				F3F9D8B21C04563500FBAFE2 /* HomeScreen.swift in Sources */,
 				F3DD90DD1BFDCCBF00F3D4E4 /* CompleteTask.swift in Sources */,
 				F3DD90D71BFDBE6A00F3D4E4 /* TaskView.swift in Sources */,
