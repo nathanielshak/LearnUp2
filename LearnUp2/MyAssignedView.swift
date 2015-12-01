@@ -31,9 +31,9 @@ class MyAssignedView: UIViewController, UITableViewDataSource, UITableViewDelega
         let task1 = AssignedTask(name: "All", task: "Count to 27 Cents", date: "11/3/15")
         let task2 = AssignedTask(name: "Jimmy", task: "Making Sentences", date: "11/4/15")
         let task3 = AssignedTask(name: "All", task: "Solve P=NP", date: "11/5/15")
-        assignedTaskArray.append(task1)
-        assignedTaskArray.append(task2)
         assignedTaskArray.append(task3)
+        assignedTaskArray.append(task2)
+        assignedTaskArray.append(task1)
     }
     
     
