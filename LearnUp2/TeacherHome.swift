@@ -25,8 +25,8 @@ class TeacherHome: UIViewController, UITableViewDataSource, UITableViewDelegate 
     
     func populateActivityFeed(){
         activityFeedArray.append("Jenny reached 50 points!")
-        activityFeedArray.append("yolo")
-        activityFeedArray.append("swag")
+        activityFeedArray.append("Nathaniel solved P=NP!")
+        activityFeedArray.append("Karan reached 30 points!")
         
     }
     

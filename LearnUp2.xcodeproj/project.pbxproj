@@ -11,6 +11,7 @@
 		F3995E851C0D1E5800CE7989 /* TeacherHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3995E841C0D1E5800CE7989 /* TeacherHome.swift */; };
 		F3995E871C0D23F800CE7989 /* ActivityFeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3995E861C0D23F800CE7989 /* ActivityFeedCell.xib */; };
 		F3995E891C0D243200CE7989 /* ActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3995E881C0D243200CE7989 /* ActivityTableViewCell.swift */; };
+		F3995E8B1C0D45A800CE7989 /* TeacherTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3995E8A1C0D45A800CE7989 /* TeacherTasks.swift */; };
 		F3DD90921BFD28E700F3D4E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DD90911BFD28E700F3D4E4 /* AppDelegate.swift */; };
 		F3DD90941BFD28E700F3D4E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DD90931BFD28E700F3D4E4 /* ViewController.swift */; };
 		F3DD90971BFD28E700F3D4E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DD90951BFD28E700F3D4E4 /* Main.storyboard */; };
@@ -64,6 +65,7 @@
 		F3995E841C0D1E5800CE7989 /* TeacherHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherHome.swift; sourceTree = "<group>"; };
 		F3995E861C0D23F800CE7989 /* ActivityFeedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityFeedCell.xib; sourceTree = "<group>"; };
 		F3995E881C0D243200CE7989 /* ActivityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityTableViewCell.swift; sourceTree = "<group>"; };
+		F3995E8A1C0D45A800CE7989 /* TeacherTasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherTasks.swift; sourceTree = "<group>"; };
 		F3DD908E1BFD28E700F3D4E4 /* LearnUp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnUp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3DD90911BFD28E700F3D4E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3DD90931BFD28E700F3D4E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 				F3DD90E01BFEA3D700F3D4E4 /* RocketScreen.swift */,
 				F3DD90DC1BFDCCBF00F3D4E4 /* CompleteTask.swift */,
 				F3995E821C0D1C0200CE7989 /* LoginScreen.swift */,
+				F3995E8A1C0D45A800CE7989 /* TeacherTasks.swift */,
 				F3995E841C0D1E5800CE7989 /* TeacherHome.swift */,
 			);
 			name = "View Controllers";
@@ -374,6 +377,7 @@
 				F3DD90E11BFEA3D700F3D4E4 /* RocketScreen.swift in Sources */,
 				F3995E851C0D1E5800CE7989 /* TeacherHome.swift in Sources */,
 				F3DD90941BFD28E700F3D4E4 /* ViewController.swift in Sources */,
+				F3995E8B1C0D45A800CE7989 /* TeacherTasks.swift in Sources */,
 				F3F9D8B21C04563500FBAFE2 /* HomeScreen.swift in Sources */,
 				F3DD90DD1BFDCCBF00F3D4E4 /* CompleteTask.swift in Sources */,
 				F3DD90D71BFDBE6A00F3D4E4 /* TaskView.swift in Sources */,
