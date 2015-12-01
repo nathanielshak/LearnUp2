@@ -19,6 +19,9 @@
 		F3995E971C0D504700CE7989 /* AssignedTaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3995E961C0D504700CE7989 /* AssignedTaskCell.swift */; };
 		F3995E991C0D5BAA00CE7989 /* NewTaskCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3995E981C0D5BAA00CE7989 /* NewTaskCell.xib */; };
 		F3995E9B1C0D5BF000CE7989 /* NewTaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3995E9A1C0D5BF000CE7989 /* NewTaskCell.swift */; };
+		F3995E9D1C0D682A00CE7989 /* camera-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F3995E9C1C0D682A00CE7989 /* camera-icon.png */; };
+		F3995E9F1C0D68F800CE7989 /* photoroll.png in Resources */ = {isa = PBXBuildFile; fileRef = F3995E9E1C0D68F800CE7989 /* photoroll.png */; };
+		F3995EA11C0D6A3100CE7989 /* cameraRoll.png in Resources */ = {isa = PBXBuildFile; fileRef = F3995EA01C0D6A3100CE7989 /* cameraRoll.png */; };
 		F3DD90921BFD28E700F3D4E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DD90911BFD28E700F3D4E4 /* AppDelegate.swift */; };
 		F3DD90941BFD28E700F3D4E4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DD90931BFD28E700F3D4E4 /* ViewController.swift */; };
 		F3DD90971BFD28E700F3D4E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3DD90951BFD28E700F3D4E4 /* Main.storyboard */; };
@@ -80,6 +83,9 @@
 		F3995E961C0D504700CE7989 /* AssignedTaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssignedTaskCell.swift; sourceTree = "<group>"; };
 		F3995E981C0D5BAA00CE7989 /* NewTaskCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewTaskCell.xib; sourceTree = "<group>"; };
 		F3995E9A1C0D5BF000CE7989 /* NewTaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTaskCell.swift; sourceTree = "<group>"; };
+		F3995E9C1C0D682A00CE7989 /* camera-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "camera-icon.png"; path = "../../../../../../../Downloads/camera-icon.png"; sourceTree = "<group>"; };
+		F3995E9E1C0D68F800CE7989 /* photoroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = photoroll.png; path = ../../../../../../../Downloads/photoroll.png; sourceTree = "<group>"; };
+		F3995EA01C0D6A3100CE7989 /* cameraRoll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cameraRoll.png; path = ../../../../../../../Downloads/cameraRoll.png; sourceTree = "<group>"; };
 		F3DD908E1BFD28E700F3D4E4 /* LearnUp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnUp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3DD90911BFD28E700F3D4E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3DD90931BFD28E700F3D4E4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -145,8 +151,11 @@
 		F3995E801C0D130500CE7989 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F3995E9C1C0D682A00CE7989 /* camera-icon.png */,
 				F3F9D8AF1C043F7400FBAFE2 /* earthbutton.png */,
 				F3DD90E21BFEA4ED00F3D4E4 /* rocket.png */,
+				F3995EA01C0D6A3100CE7989 /* cameraRoll.png */,
+				F3995E9E1C0D68F800CE7989 /* photoroll.png */,
 				F3DD90DA1BFDC65B00F3D4E4 /* _coins_stacks-256.png */,
 				F3DD90D81BFDC1CE00F3D4E4 /* planetsurface.png */,
 				F3DD90DE1BFE9D6300F3D4E4 /* camera.png */,
@@ -357,11 +366,14 @@
 				F3DD90E31BFEA4ED00F3D4E4 /* rocket.png in Resources */,
 				F3DD90C91BFD4F5D00F3D4E4 /* Terra_globe_icon.png in Resources */,
 				F3DD90CB1BFD567500F3D4E4 /* Picture1.png in Resources */,
+				F3995E9D1C0D682A00CE7989 /* camera-icon.png in Resources */,
 				F3DD90D31BFDBD6C00F3D4E4 /* light-blue-circle-hi.png in Resources */,
+				F3995EA11C0D6A3100CE7989 /* cameraRoll.png in Resources */,
 				F3995E991C0D5BAA00CE7989 /* NewTaskCell.xib in Resources */,
 				F3995E871C0D23F800CE7989 /* ActivityFeedCell.xib in Resources */,
 				F3995E951C0D4F5F00CE7989 /* MyAssignedCell.xib in Resources */,
 				F3DD909C1BFD28E700F3D4E4 /* Assets.xcassets in Resources */,
+				F3995E9F1C0D68F800CE7989 /* photoroll.png in Resources */,
 				F3DD90D51BFDBDF100F3D4E4 /* white-circle-md.png in Resources */,
 				F3F9D8B01C043F7400FBAFE2 /* earthbutton.png in Resources */,
 				F3DD90DB1BFDC65B00F3D4E4 /* _coins_stacks-256.png in Resources */,
