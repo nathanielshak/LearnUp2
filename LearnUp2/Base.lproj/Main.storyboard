@@ -179,7 +179,7 @@
                         <viewControllerLayoutGuide type="bottom" id="DPg-p1-aOW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="rmT-hK-J2f">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="opR-0d-imD">
@@ -199,7 +199,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="New Tasks" id="afY-9W-eNM"/>
+                    <tabBarItem key="tabBarItem" title="New Tasks" image="star.png" id="afY-9W-eNM"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="KyL-s9-v7m">
                         <nil key="title"/>
@@ -224,7 +224,7 @@
             </objects>
             <point key="canvasLocation" x="3049.5" y="-1107.5"/>
         </scene>
-        <!--Item-->
+        <!--Create-->
         <scene sceneID="Qs8-Uy-sQl">
             <objects>
                 <viewController id="Z2g-qy-Wsw" customClass="CreateView" customModule="LearnUp2" customModuleProvider="target" sceneMemberID="viewController">
@@ -307,7 +307,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="zyG-vm-I82"/>
+                    <tabBarItem key="tabBarItem" title="Create" image="plus.png" id="zyG-vm-I82"/>
                     <navigationItem key="navigationItem" id="6FL-64-zMA">
                         <nil key="title"/>
                         <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="nLn-Ef-vEw">
@@ -365,7 +365,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="My Assigned" id="x6m-W1-xW7"/>
+                    <tabBarItem key="tabBarItem" title="My Assigned" image="book.png" id="x6m-W1-xW7"/>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="J0a-7I-8dS">
                         <nil key="title"/>
@@ -997,21 +997,24 @@
     <resources>
         <image name="Earth.png" width="980" height="979"/>
         <image name="_coins_stacks-256.png" width="256" height="256"/>
+        <image name="book.png" width="27" height="27"/>
         <image name="camera-icon.png" width="512" height="512"/>
         <image name="camera.png" width="348" height="306"/>
         <image name="cameraRoll.png" width="105" height="102"/>
         <image name="earthbutton.png" width="32" height="32"/>
         <image name="homebutton.png" width="49" height="49"/>
         <image name="planetsurface.png" width="759" height="1350"/>
+        <image name="plus.png" width="46" height="46"/>
         <image name="rocket.png" width="333" height="623"/>
         <image name="settings.png" width="27" height="27"/>
+        <image name="star.png" width="38" height="38"/>
         <image name="starry-sky-of-bretagne.jpg" width="2592" height="1728"/>
         <image name="white-circle-md.png" width="300" height="300"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="vHw-JH-4pF"/>
         <segue reference="4oC-Zu-aLr"/>
-        <segue reference="Ej1-Mx-mqC"/>
+        <segue reference="law-Jw-vgX"/>
         <segue reference="XPI-r1-DT6"/>
     </inferredMetricsTieBreakers>
 </document>
