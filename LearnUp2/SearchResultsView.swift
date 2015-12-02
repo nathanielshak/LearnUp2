@@ -8,19 +8,22 @@
 
 import UIKit
 
-class SearchResultsView: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class SearchResultsView: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate {
     
     
     var searchedTaskArray = [String]()
     
     @IBOutlet weak var searchedTaskTable: UITableView!
-    
+    @IBOutlet weak var searchBar: UISearchBar!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         let nib = UINib(nibName: "SearchTaskCell", bundle: nil)
         searchedTaskTable.registerNib(nib, forCellReuseIdentifier: "searchTaskCell")
         populateSearchedTasks()
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        view.addGestureRecognizer(tap)
+        searchBar.delegate = self
     }
     
     func populateSearchedTasks(){
@@ -47,8 +50,20 @@ class SearchResultsView: UIViewController, UITableViewDataSource, UITableViewDel
         
     }
     
+    //Calls this function when the tap is recognized.
+    func dismissKeyboard() {
+        //Causes the view (or one of its embedded text fields) to resign the first responder status.
+        view.endEditing(true)
+    }
+    
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return searchedTaskArray.count
     }
+    
+    func searchBarSearchButtonClicked(searchBar: UISearchBar) {
+        //do search query
+        view.endEditing(true)
+    }
+    
     
 }
